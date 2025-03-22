@@ -1,0 +1,21 @@
+{
+  "name": "el_pais_scraper_ts",
+  "version": "1.0.0",
+  "main": "dist/scrapeElPais.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/scrapeElPais.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "request": "^2.88.2",
+    "selenium-webdriver": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/node-fetch": "^2.6.12",
+    "@types/request": "^2.48.12",
+    "@types/selenium-webdriver": "^4.1.28",
+    "typescript": "^5.4.3"
+  }
+}
